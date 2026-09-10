@@ -2,7 +2,21 @@
 
 A single-page static site selling a 3-book series. No build step, no framework, no dependencies to install.
 
-## What changed in this rebuild
+## Latest pass: the glossy makeover
+
+Pushed the visual direction hard toward photo-saturated travel sites (Indonesia.travel, Bali Fun Day Tour) rather than a SaaS pricing page:
+
+- **Hero** is now a full-bleed, slow-crossfading photo slideshow (4 images, pure CSS animation, no JS/video needed) with a scroll-cue indicator.
+- **New Spotlight section** right after the hero — 4 large destination cards (one big feature + 3 standard), gold tier tags, hover zoom.
+- **Pill-shaped buttons** everywhere (was rounded-rect, now fully rounded) for a warmer, less corporate feel.
+- **New gold accent color** (`--gold` / `--gold-deep` / `--gold-tint`) used on ribbons, hero stats, prices, and one bonus card — breaks up the charcoal/teal palette without abandoning it.
+- **Bonus Perks cards** now have rich teal→charcoal and gold→charcoal gradients with elevated icon badges instead of flat tint backgrounds.
+- **CTA band** now has a photo backdrop (Costa Rica waterfall) with dark gradient overlay, bookending the hero visually.
+- Tier card photo strips got a subtle hover zoom for interactivity.
+
+Four new photos sourced for this pass: Argentina (Buenos Aires obelisk), Costa Rica (rainforest waterfall), Greece (Santorini), Japan (Kyoto), Vietnam (Hoi An lanterns), Malaysia (Petronas Towers) — all free-license Unsplash, hotlinked, no attribution required.
+
+## What changed in the previous rebuild
 
 The product is now three standalone ~30+ page books (not one book with bonus country packs):
 
